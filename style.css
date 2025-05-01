@@ -1,0 +1,154 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 178px 42px;
+
+
+}
+
+.link-header {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 32px;
+
+}
+
+button {
+    background: #6FBF44;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+
+
+}
+
+.img-logo {
+    Width: 595px;
+    Height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+
+}
+
+section {
+    display: inline-block;
+}
+
+h1 {
+    width: 582;
+    height: 164;
+    top: 342px;
+    left: 801px;
+    font-family: Poppins;
+    font-weight: 700px;
+    font-size: 62px;
+    color: #161A49;
+    margin: 342px 57px 47px 85px;
+
+}
+
+ h2 {
+    width: 582;
+    height: 164;
+    top: 342px;
+    left: 801px;
+    font-family: Poppins;
+    font-weight: 700px;
+    font-size: 62px;
+    color: #161A49;
+    margin: 96px 57px 0px 85px;
+} 
+
+p {
+    top: 490px;
+    left: 801px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    width: 400px;
+    margin: 47px 89px 55px 85px;
+
+}
+
+.link-section {
+    width: 112;
+    height: 27;
+    top: 707px;
+    left: 801px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    margin: 55px 527px 114px 85px;
+
+
+}
+@media screen and (max-width: 900px) {
+    body {
+        text-align: center;
+    }
+
+    header {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .link-header {
+        display: block;
+        margin: 10px 0;
+        display: none;
+    }
+
+    button {
+        margin: 20px auto;
+        display: block;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin: 20px 20px 10px 20px;
+        width: 90%;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 28px;
+        width: 90%;
+        margin: 10px 20px;
+    }
+
+    .link-section {
+        margin: 20px auto;
+        font-size: 16px;
+    }
+
+    .img-logo {
+        width: 90%;
+        max-width: 400px;
+        margin: 30px auto;
+        display: block;
+    }
+}
